@@ -3,7 +3,7 @@ layout: page
 title: Elements
 description: One of the most important parts of the design process is creating prototypes. They allow testing ideas and concepts at early stages and receiving feedback from users. We will discuss various prototyping tools and share tips on organizing user testing.
 permalink: /elements/
-image: '/TimBunkerPortfolio/images/15.jpg'
+image: '/images/15.jpg'
 image_caption: 'Photo by [Alexandra Gorn](https://unsplash.com/photos/teal-wooden-drawer-dresser-W5dsm9n6e3g) on [Unsplash](https://unsplash.com/)'
 ---
 
@@ -112,22 +112,22 @@ li {
 
 ## Images
 
-![Stairs](/images/09-1.jpg#wide)
+![Stairs](/TimBunkerPortfolio/images/09-1.jpg#wide)
 *Photo by [Maxime Lebrun](https://unsplash.com/photos/empty-spiral-stairs-on-low-angle-photograph-1o2071GOVp0) on [Unsplash](https://unsplash.com/)*
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/03.jpg" loading="lazy">
-    <img src="/images/04.jpg" loading="lazy">
-    <img src="/images/05.jpg" loading="lazy">
-    <img src="/images/06.jpg" loading="lazy">
-    <img src="/images/07.jpg" loading="lazy">
-    <img src="/images/08.jpg" loading="lazy">
+    <img src="/TimBunkerPortfolio/images/03.jpg" loading="lazy">
+    <img src="/TimBunkerPortfolio/images/04.jpg" loading="lazy">
+    <img src="/TimBunkerPortfolio/images/05.jpg" loading="lazy">
+    <img src="/TimBunkerPortfolio/images/06.jpg" loading="lazy">
+    <img src="/TimBunkerPortfolio/images/07.jpg" loading="lazy">
+    <img src="/TimBunkerPortfolio/images/08.jpg" loading="lazy">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-![Art](/images/05-1.jpg)
+![Art](/TimBunkerPortfolio/images/05-1.jpg)
 *Photo by [Anthony Tuil](https://unsplash.com/photos/pink-and-white-concrete-building-eDrqAhPoGGg) on [Unsplash](https://unsplash.com/)*
 
 ***
