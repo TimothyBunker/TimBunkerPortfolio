@@ -52,7 +52,7 @@ layout: default
       {% if project.url != page.url %}
       <article class="project col col-3 col-d-6 col-t-12">
         <div class="project-content">
-          <a href="/TimBunkerPortfolio/projects/" class="project__image">
+          <a href="{{ project.url }}" class="project__image">
             <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
           </a>
           <div class="project__info">
@@ -60,7 +60,7 @@ layout: default
               <div class="project__label">{{ project.label }}</div>
             {% endif %}
             <h2 class="project__title">
-              <a href="/TimBunkerPortfolio/projects/">{{ project.title }}</a>
+              <a href="{{ project.url }}">{{ project.title }}</a>
             </h2>
           </div>
         </div>
