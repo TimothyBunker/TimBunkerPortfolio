@@ -24,7 +24,7 @@ Flexibility is key to maintaining a balanced lifestyle. Allowing ourselves to ad
 Networking with other professionals and attending workshops and conferences can open up new opportunities and insights. Engaging with the broader creative community helps us stay informed about industry trends and developments, enriching our practice.
 Staying curious and open to new experiences is essential for continuous growth. Embracing a mindset of lifelong learning keeps our creative spirit alive and thriving. Whether it's learning a new skill, exploring a different medium, or experimenting with unconventional techniques, curiosity drives innovation.
 
-![Poster](/images/project-example-4-1.jpg)
+![Poster](/TimBunkerPortfolio/images/project-example-4-1.jpg)
 *Photo by [Brands&People](https://unsplash.com/photos/happy-birthday-greeting-card-on-white-surface-t79TGwwVlZA) on [Unsplash](https://unsplash.com/)*
 
 Technology offers numerous tools and platforms for creativity, but it also presents challenges in managing screen time and distractions. Establishing boundaries with technology helps maintain focus and balance. Taking regular breaks from screens can rejuvenate our minds and prevent burnout.
