@@ -2,7 +2,7 @@
 title: Using art with a purpose to influence and Inform
 date: 2024-07-12 08:01:35 +0300
 label: Poster
-image: '/images/project-3.jpg'
+image: '/TimBunkerPortfolio/images/project-3.jpg'
 image_caption: 'Photo by [cHoLoNg cHoI](https://unsplash.com/photos/woman-in-black-and-white-polka-dot-dress-holding-red-and-white-love-print-card-uASlMgnSNeI) on [Unsplash](https://unsplash.com/)'
 ---
 
