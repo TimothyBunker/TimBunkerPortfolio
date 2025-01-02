@@ -2,7 +2,7 @@
 layout: page
 title: Elements
 description: One of the most important parts of the design process is creating prototypes. They allow testing ideas and concepts at early stages and receiving feedback from users. We will discuss various prototyping tools and share tips on organizing user testing.
-permalink: /elements/
+permalink: /TimBunkerPortfolio/elements/
 image: '/images/15.jpg'
 image_caption: 'Photo by [Alexandra Gorn](https://unsplash.com/photos/teal-wooden-drawer-dresser-W5dsm9n6e3g) on [Unsplash](https://unsplash.com/)'
 ---
