@@ -16,7 +16,7 @@
     {% endif %}
     <div class="prev__box">
       <span class="page__nav page__nav__prev">Previous page</span>
-      <h2 class="page__nav__title"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
+      <h2 class="page__nav__title"><a href="/TimBunkerPortfolio{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
     </div>
   </div>
   {% endif %}
@@ -25,10 +25,10 @@
   <div class="page__next">
     <div class="next__box">
       <span class="page__nav page__nav__next">Next page</span>
-      <h2 class="page__nav__title"><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
+      <h2 class="page__nav__title"><a href="/TimBunkerPortfolio{{ page.next.url }}">{{ page.next.title }}</a></h2>
     </div>
     {% if page.next.image %}
-    <a href="{{ page.next.url }}" class="next__image">
+    <a href="/TimBunkerPortfolio{{ page.next.url }}" class="next__image">
       {% if page.next.image and page.next.video_embed %}
       <div class="video-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
