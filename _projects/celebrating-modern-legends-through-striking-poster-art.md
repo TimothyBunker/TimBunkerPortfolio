@@ -14,10 +14,10 @@ A balanced lifestyle also requires taking care of our mental and physical health
 
 <div class="gallery-box">
   <div class="gallery gallery--page">
-    <img src="/images/project-example-1.jpg" loading="lazy" alt="Project">
-    <img src="/images/project-example-2.jpg" loading="lazy" alt="Project">
-    <img src="/images/project-example-3.jpg" loading="lazy" alt="Project">
-    <img src="/images/project-example-4.jpg" loading="lazy" alt="Project">
+    <img src="/TimBunkerPortfolio/images/project-example-1.jpg" loading="lazy" alt="Project">
+    <img src="/TimBunkerPortfolio/images/project-example-2.jpg" loading="lazy" alt="Project">
+    <img src="/TimBunkerPortfolio/images/project-example-3.jpg" loading="lazy" alt="Project">
+    <img src="/TimBunkerPortfolio/images/project-example-4.jpg" loading="lazy" alt="Project">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
