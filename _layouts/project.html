@@ -8,7 +8,7 @@ layout: default
     <div class="project-page__left">
       {% if page.image %}
       <div class="project-page__image">
-        <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+        <img class="lazy" data-src="/TimBunkerPortfolio{{ page.image }}" alt="{{ page.title }}">
       </div>
       {% endif %}
       {% if page.image_caption %}
@@ -52,15 +52,15 @@ layout: default
       {% if project.url != page.url %}
       <article class="project col col-3 col-d-6 col-t-12">
         <div class="project-content">
-          <a href="{{ project.url }}" class="project__image">
-            <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
+          <a href="/TimBunkerPortfolio{{ project.url }}" class="project__image">
+            <img class="lazy" data-src="/TimBunkerPortfolio{{ project.image }}" alt="{{ project.title }}">
           </a>
           <div class="project__info">
             {% if project.label %}
               <div class="project__label">{{ project.label }}</div>
             {% endif %}
             <h2 class="project__title">
-              <a href="{{ project.url }}">{{ project.title }}</a>
+              <a href="/TimBunkerPortfolio{{ project.url }}">{{ project.title }}</a>
             </h2>
           </div>
         </div>
