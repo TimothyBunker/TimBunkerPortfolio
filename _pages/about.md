@@ -19,7 +19,7 @@ Photography is another passion of mine, allowing me to capture fleeting moments 
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/01-2.jpg" loading="lazy" alt="Lifestyle">
+    <img src="/TimBunkerPortfolio/images/01-2.jpg" loading="lazy" alt="Lifestyle">
   </div>
   <em>Photo by <a href="https://unsplash.com/photos/three-people-holding-glass-bottles-while-talking-_qADvinJi20">John Arano</a> on <a href="https://unsplash.com/">Unsplash</a></em>
 </div>
@@ -29,7 +29,7 @@ Additionally, I enjoy experimenting with different forms of artistic expression,
 
 Spending time with family and friends is also incredibly important to me. Their support and encouragement fuel my passion and drive, and our shared experiences often inspire new ideas and projects. Whether it's a casual gathering, a collaborative project, or a heartfelt conversation, these moments remind me of the importance of connection and community.
 
-![Women](/images/01-3.jpg)
+![Women](/TimBunkerPortfolio/images/01-3.jpg)
 *Photo by [Alexis Brown](https://unsplash.com/photos/woman-reading-book-while-sitting-on-chair-omeaHbEFlN4) on [Unsplash](https://unsplash.com/)*
 
 In essence, my hobbies and free-time activities are an extension of my creative life. They provide me with endless inspiration, joy, and the energy to continue pursuing my passions as an Artist, Designer, and Thinker. Every experience, every journey, and every moment of reflection contributes to the tapestry of my life and work, shaping me into the person and creator I am today.
