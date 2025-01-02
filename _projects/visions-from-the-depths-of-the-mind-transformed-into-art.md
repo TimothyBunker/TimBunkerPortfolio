@@ -2,7 +2,7 @@
 title: Visions from the depths of the mind transformed into art
 date: 2022-01-03 08:01:35 +0300
 label: Illustration
-image: '/images/project-8.jpg'
+image: '/TimBunkerPortfolio/images/project-8.jpg'
 ---
 
 Creativity is an integral part of our lives as artists, designers, and thinkers. It fuels our passion, drives innovation, and defines our personal and professional identities. However, balancing this creative drive with daily responsibilities can be a daunting task. The key lies in effectively managing our time and creating a harmonious environment that fosters creativity while accommodating everyday demands. Creating a conducive environment is equally important. Our workspace should be a sanctuary of inspiration and productivity. This means choosing a space that is free from distractions, well-lit, and aesthetically pleasing. Incorporating elements that inspire us, such as artwork, plants, and personal mementos, can significantly enhance our creative output.
