@@ -12,7 +12,7 @@ Creativity is an integral part of our lives as artists, designers, and thinkers.
 
 A balanced lifestyle also requires taking care of our mental and physical health. Regular exercise, a balanced diet, and adequate sleep are essential for maintaining high levels of creativity and productivity. Physical well-being directly impacts our ability to think clearly and generate innovative ideas.
 
-![Poster](/images/project-example-4-1.jpg#wide)
+![Poster](/TimBunkerPortfolio/images/project-example-4-1.jpg#wide)
 *Photo by [Brands&People](https://unsplash.com/photos/happy-birthday-greeting-card-on-white-surface-t79TGwwVlZA) on [Unsplash](https://unsplash.com/)*
 
 Mindfulness and meditation practices can help manage stress and maintain focus. These practices encourage a deeper connection with our inner selves, fostering a calm and centered state of mind that is conducive to creativity. Regular meditation can enhance our ability to think clearly and remain present in our creative process.
@@ -27,7 +27,7 @@ Flexibility is key to maintaining a balanced lifestyle. Allowing ourselves to ad
 Networking with other professionals and attending workshops and conferences can open up new opportunities and insights. Engaging with the broader creative community helps us stay informed about industry trends and developments, enriching our practice.
 Staying curious and open to new experiences is essential for continuous growth. Embracing a mindset of lifelong learning keeps our creative spirit alive and thriving. Whether it's learning a new skill, exploring a different medium, or experimenting with unconventional techniques, curiosity drives innovation.
 
-![Poster](/images/project-example-4-2.jpg)
+![Poster](/TimBunkerPortfolio/images/project-example-4-2.jpg)
 *Photo by [Jonne](https://unsplash.com/photos/assorted-posters-8vhDazScX1k) on [Unsplash](https://unsplash.com/)*
 
 Technology offers numerous tools and platforms for creativity, but it also presents challenges in managing screen time and distractions. Establishing boundaries with technology helps maintain focus and balance. Taking regular breaks from screens can rejuvenate our minds and prevent burnout.
