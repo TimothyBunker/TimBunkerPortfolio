@@ -124,7 +124,7 @@ mailchimp:
   mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
   mailchimp_input_text: Your email address...
   mailchimp_button_text: Subscribe
-  mailchimp_background_image: '/images/subscribe-bg.jpg'
+  mailchimp_background_image: '/TimBunkerPortfolio/images/subscribe-bg.jpg'
 
 
 #-------------------------------
