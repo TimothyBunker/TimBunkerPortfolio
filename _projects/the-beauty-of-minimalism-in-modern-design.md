@@ -3,7 +3,7 @@ title: The beauty of minimalism in modern design
 description: Explore how the fusion of art and technology is transforming the creative landscape.
 date: 2024-07-07 08:01:35 +0300
 label: Poster
-image: '/images/project-6.jpg'
+image: '/TimBunkerPortfolio/images/project-6.jpg'
 ---
 
 Creativity is an integral part of our lives as artists, designers, and thinkers. It fuels our passion, drives innovation, and defines our personal and professional identities. However, balancing this creative drive with daily responsibilities can be a daunting task. The key lies in effectively managing our time and creating a harmonious environment that fosters creativity while accommodating everyday demands. Creating a conducive environment is equally important. Our workspace should be a sanctuary of inspiration and productivity. This means choosing a space that is free from distractions, well-lit, and aesthetically pleasing. Incorporating elements that inspire us, such as artwork, plants, and personal mementos, can significantly enhance our creative output.
