@@ -12,7 +12,7 @@ Creativity is an integral part of our lives as artists, designers, and thinkers.
 
 A balanced lifestyle also requires taking care of our mental and physical health. Regular exercise, a balanced diet, and adequate sleep are essential for maintaining high levels of creativity and productivity. Physical well-being directly impacts our ability to think clearly and generate innovative ideas.
 
-![Photo](/images/project-example-2-1.jpg#wide)
+![Photo](/TimBunkerPortfolio/images/project-example-2-1.jpg#wide)
 *Photo by [Kenny Eliason](https://unsplash.com/photos/man-holding-camera-bending-down-in-grayscale-photography-aMr23XVkWos) on [Unsplash](https://unsplash.com/)*
 
 Mindfulness and meditation practices can help manage stress and maintain focus. These practices encourage a deeper connection with our inner selves, fostering a calm and centered state of mind that is conducive to creativity. Regular meditation can enhance our ability to think clearly and remain present in our creative process.
@@ -29,8 +29,8 @@ Staying curious and open to new experiences is essential for continuous growth. 
 
 <div class="gallery-box">
   <div class="gallery gallery--page">
-    <img src="/images/project-example-2-2.jpg" loading="lazy" alt="Project">
-    <img src="/images/project-example-2-3.jpg" loading="lazy" alt="Project">
+    <img src="/TimBunkerPortfolio/images/project-example-2-2.jpg" loading="lazy" alt="Project">
+    <img src="/TimBunkerPortfolio/images/project-example-2-3.jpg" loading="lazy" alt="Project">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
