@@ -2,7 +2,7 @@
 title: Embracing eco conscious creativity for a greener future
 date: 2024-07-05 08:01:35 +0300
 label: Design
-image: '/images/project-7.jpg'
+image: 'TimBunkerPortfolio/images/project-7.jpg'
 image_caption: 'Photo by [Girl with red hat](https://unsplash.com/photos/campbells-chicken-noodle-soup-can-C0MAGd-6aZM) on [Unsplash](https://unsplash.com/)'
 ---
 
