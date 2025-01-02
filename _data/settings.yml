@@ -30,7 +30,7 @@ menu_settings:
 #-------------------------------
 # Author Settings
 author:
-  author_name: James Brown
+  author_name: Tim Bunker
   author_avatar: '/images/01-1.jpg'
 
 
@@ -38,7 +38,7 @@ author:
 # Hero Settings
 hero:
   enable: true
-  hero_role: Artist ∙ Designer ∙ Thinker
+  hero_role: Software Engineer ∙ Programmer ∙ Student
   hero_title: Hi! I’m Tim <img src="/TimBunkerPortfolio/images/01-1.jpg" alt="Tim Bunkers's Picture" loading="lazy"> <br> I Create Things That Work for Your Business
   hero_description:
   hero_button_text: Let’s make dream together
@@ -144,7 +144,7 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  contact_email: your@email.com # Add your form_id
+  contact_email: bunkertimothy0@gmail.com # Add your form_id
   contact_button_text: Send Message
 
 # NOTE
