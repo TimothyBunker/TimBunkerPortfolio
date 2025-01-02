@@ -27,7 +27,7 @@ collections:
     permalink: /blog/:slug/
   projects:
     output: true
-    permalink: /_project/:slug/
+    permalink: /TimBunkerPortfolio/_project/:slug/
 
 # Pages Path
 defaults:
