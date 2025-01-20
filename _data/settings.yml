@@ -102,11 +102,11 @@ faq:
   faq_description:
   faq_items:
     - title: What drives you?
-    description: I am driven by innovation and the opportunity to use technology in groundbreaking ways to achieve what was once thought impossible.
+      description: I am driven by innovation and the opportunity to use technology in groundbreaking ways to achieve what was once thought impossible.
     - title: What are you currently interested in?
-    description: I am deeply interested in Deep Reinforcement Learning (DRL) and its applications in continuous learning systems. I believe DRL will be a cornerstone of future technology, enabling transformative advancements like my financial agent bot.
+      description: I am deeply interested in Deep Reinforcement Learning (DRL) and its applications in continuous learning systems. I believe DRL will be a cornerstone of future technology, enabling transformative advancements like my financial agent bot.
     - title: What kinds of software projects do you work on?
-    description: I focus on creating scalable and innovative solutions in data science, deep learning, and reinforcement learning. My projects often involve designing and implementing intelligent systems, from financial optimization models to real-time decision-making agents. I also work on custom tools and platforms to showcase the potential of advanced AI and machine learning in real-world applications.
+      description: I focus on creating scalable and innovative solutions in data science, deep learning, and reinforcement learning. My projects often involve designing and implementing intelligent systems, from financial optimization models to real-time decision-making agents. I also work on custom tools and platforms to showcase the potential of advanced AI and machine learning in real-world applications.
     - title: Can you explain your experience with deep learning and reinforcement learning?
       description: I have hands-on experience developing and fine-tuning models for various deep learning applications, including natural language processing and time-series forecasting. In reinforcement learning, I specialize in creating agents capable of learning from environments to optimize performance, such as in financial portfolio optimization and dynamic decision-making scenarios. My work bridges theoretical research and practical implementation, delivering robust results.
     - title: What do you enjoy most about working in data science and machine learning?
