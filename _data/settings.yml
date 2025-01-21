@@ -89,7 +89,7 @@ blog:
 # About Section Settings
 about:
   enable: true
-  about_image: '/TimBunkerPortfolio/images/01.jpg'
+  about_image: '/TimBunkerPortfolio/images/upscaled_headshot.png'
   about_title: Short Story About Me
   about_description: As a computer scientist I became interested in computers by asking big questions that seemingly only computer technology could hope to answer, and to my delight, I have found many like minded people who have also asked the same questions. Not only that, they have even laid the foundation for me to do my own work. For this, I am eternally grateful. What an awesome opportunity today is.
 
