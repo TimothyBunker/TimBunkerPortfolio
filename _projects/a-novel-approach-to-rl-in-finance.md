@@ -113,7 +113,7 @@ This project showcases the potential of reinforcement learning in portfolio opti
 ## Repository and Resources
 
 ### Code
-The complete implementation can be found [here](https://github.com/TimothyBunker/PPL). The repository includes:
+The complete implementation can be found [here](https://github.com/TimothyBunker/TimFinPPL). The repository includes:
 - Environment setup.
 - PPO agent implementation.
 - Training and evaluation scripts.
