@@ -42,7 +42,7 @@ hero:
   hero_title: Hi! I’m Tim <img src="/TimBunkerPortfolio/images/01-1.jpg" alt="Tim Bunkers's Picture" loading="lazy"> <br> and I am a Software Developer.
   hero_description:
   hero_button_text: There is always something to work on.
-  hero_button_link: "/contact/"
+  hero_button_link: "/TimBunkerPortfolio/contact/"
 
 
 #-------------------------------
