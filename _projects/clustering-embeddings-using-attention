@@ -1,131 +1,78 @@
 ---
-title: Developing a Scalable Portfolio Allocator
-description: Integrating a Continually Learning PPO Model into the Financial Portfolio Allocating Landscape
+title: Clustered Embedding Using Attention
+description: Developing a Novel Embedding Space via Attention-Guided Clustering
 date: 2025-03-06 19:51:42
 label: Poster
 image: '/TimBunkerPortfolio/images/Clustered.png'
 ---
-# Reinforcement Learning for Portfolio Optimization
+
+# Clustered Embedding Using Attention
 
 ## Project Overview
 
-This project implements a Proximal Policy Optimization (PPO) agent to optimize portfolio allocations in a dynamic trading environment. The model operates in continuous action space and seeks to maximize returns by allocating capital among multiple assets while accounting for transaction costs and cash balance.
-
-The primary goal is to simulate and train an intelligent agent that learns effective trading strategies, ultimately achieving positive portfolio growth.
-
----
+In this project, we explore a novel approach to word embedding that departs from traditional predictive objectives. Instead of relying on pre-trained models tuned for next-token prediction, we start with uniformly distributed, maximally distant embeddings and update them exclusively based on attention signals extracted from BERT. Our goal is to create an embedding space where similar words naturally cluster together based on their contextual relationships—guided solely by attention.
 
 ## Purpose
 
-### Why Portfolio Optimization?
-In financial markets, portfolio optimization is a challenging task that requires balancing risk and return across multiple assets. Traditional methods, such as mean-variance optimization, rely on static assumptions and historical data, limiting their adaptability in dynamic markets. Reinforcement learning (RL), on the other hand, allows for adaptive strategies that respond to market conditions in real time.
+### Why Clustered Embeddings?
 
-This project demonstrates:
-- How RL can be applied to financial decision-making.
-- The integration of advanced neural network architectures (GRU) with RL algorithms.
-- Strategies for handling continuous action spaces in trading environments.
+Standard embeddings (like those from Word2Vec or BERT) are optimized for language modeling tasks. While powerful, these embeddings often carry inherent biases and may not explicitly capture the semantic grouping desired for specific downstream applications. Our approach emphasizes:
 
----
+- **Contextual Clustering:** By using attention signals from detailed word descriptions, embeddings only move closer when contextually justified.
+- **Preserving Distinctiveness:** Starting with a uniformly distributed, maximally distant space prevents collapse and ensures each word retains its uniqueness.
+- **Task Adaptability:** The resultant clustered embeddings can later be integrated into more complex systems, enhancing tasks like semantic search or downstream NLP applications.
 
 ## Key Features
 
-### 1. **Custom Trading Environment**
-A dynamic trading environment simulates real-world market conditions with:
-- **Historical Data**: Real asset prices, including daily open, close, high, and low prices.
-- **Action Space**: Continuous allocation of percentages to various stocks and cash, constrained to sum to 1.
-- **Reward Function**: Designed to balance portfolio growth with transaction costs, penalizing negative cash balances and encouraging diversification.
+### Data Preparation & Precomputation
+- **Cleaned Descriptions:** Raw JSON data containing word descriptions is cleaned and consolidated into a standardized format.
+- **Attention Precomputation:** BERT is used to extract token-level attention scores for each description. These scores, along with tokenized representations, are precomputed and stored for efficiency, ensuring that the training pipeline is not burdened with real-time attention extraction.
 
-### 2. **Actor-Critic Architecture**
-The PPO agent uses an actor-critic framework:
-- **Actor Network**: Outputs a Dirichlet distribution for portfolio allocations, ensuring non-negative values that sum to 1.
-- **Critic Network**: Estimates the value function to guide policy updates.
-- **GRU Layer**: Captures temporal dependencies in market data, allowing the model to learn from sequential trends.
+### Uniform Embedding Initialization
+- **Maximally Distant Start:** We initialize our embedding space with uniformly distributed vectors on a unit hypersphere. This guarantees that every word starts maximally distant from one another, setting a neutral baseline for subsequent clustering.
+- **Trainable Space:** The custom embedding module is designed to be updated solely by context, ensuring that only words with strong attention signals are moved closer together.
 
-### 3. **Exploration and Exploitation**
-The model incorporates mechanisms to balance exploration and exploitation:
-- **Entropy Regularization**: Encourages diverse action sampling.
-- **Reward Scaling**: Amplifies portfolio changes to make learning signals more discernible.
-
-### 4. **Robust Training Pipeline**
-- **Generalized Advantage Estimation (GAE)**: Stabilizes policy updates by reducing variance.
-- **Reward Normalization**: Ensures that rewards remain within a manageable range.
-- **Curriculum Learning**: Gradually increases environment complexity.
-
----
+### Attention-Based Updates
+- **Contrastive Learning with Negative Sampling:** A gated MLP selectively updates embeddings by drawing them closer to their attention-weighted context representation while pushing apart embeddings from unrelated contexts.
+- **Gated Update Mechanism:** The update function ensures that embeddings move only towards related contexts, preventing arbitrary shifts and preserving the integrity of the initial uniform distribution.
 
 ## Challenges and Solutions
 
-### 1. **Sparse Positive Rewards**
-- **Problem**: Positive portfolio changes were rare, leading to slow learning.
-- **Solution**: Reward shaping was implemented to provide intermediate rewards for beneficial actions, such as reducing volatility or maintaining balance.
+### Achieving Effective Clustering
+- **Challenge:** Without the traditional language-modeling objective, embeddings might not naturally group by semantic similarity.
+- **Solution:** We employ a contrastive loss framework that rewards moving embeddings closer to contexts with high attention signals, and penalizes them for being too close to irrelevant (negative) contexts.
 
-### 2. **Exploration Difficulties**
-- **Problem**: The agent often converged to suboptimal strategies due to insufficient exploration.
-- **Solution**: Concentration parameters in the Dirichlet distribution were adjusted dynamically to enhance exploration.
-
-### 3. **Portfolio Value Drift**
-- **Problem**: Portfolio value approached zero due to improper share updates.
-- **Solution**: Fixed share calculations to ensure allocations reflect intended actions while preserving capital.
-
-### 4. **Continuous Action Space**
-- **Problem**: Mapping infinite possible actions in continuous space to effective policies was complex.
-- **Solution**: Adopted a Dirichlet distribution to naturally constrain actions to valid portfolio allocations.
-
----
+### Precomputation Efficiency
+- **Challenge:** Running BERT for each word-description pair on the fly is computationally prohibitive.
+- **Solution:** By precomputing and storing attention scores along with tokenized representations and initial embeddings, our training loop becomes significantly faster and more scalable.
 
 ## Results
 
-### Performance Highlights
-- The agent demonstrated the ability to reduce losses consistently.
-- Incremental improvements in reward structures enabled positive portfolio changes during evaluation.
-
-### Visualization
-Key metrics and portfolio performance trends were visualized to track agent learning and decision-making over time. Sample outputs included:
-- Portfolio value over episodes.
-- Reward trends and loss metrics.
-- Allocation distributions.
-
----
+Preliminary experiments show promising results:
+- **Semantic Grouping:** Similar words begin to cluster together as training progresses, reflecting the attention-based signals from their descriptions.
+- **Training Efficiency:** Precomputation has reduced runtime overhead, allowing for faster iterations and experimentation.
+- **Robust Loss Dynamics:** The contrastive loss successfully balances pulling related embeddings together while maintaining clear boundaries for dissimilar words.
 
 ## Future Work
 
-### 1. **Enhanced Reward Functions**
-- Introduce intrinsic motivation, such as diversity rewards, to encourage exploration.
-- Optimize for risk-adjusted returns, incorporating metrics like Sharpe Ratio.
+### Enhanced Aggregation Techniques
+We plan to explore multi-level (tertiary) aggregation of attention scores across multiple descriptions per word, providing even finer-grained update signals.
 
-### 2. **Integration with Live Data**
-- Extend the environment to handle streaming market data for real-time decision-making.
+### Integration with Downstream Tasks
+The next step is to integrate these clustered embeddings into broader NLP applications—such as semantic search, document clustering, or even as an initialization for further fine-tuning in large language models.
 
-### 3. **Advanced Architectures**
-- Experiment with Transformers or LSTMs for improved sequential learning.
-- Implement multi-agent systems to simulate competition in trading.
-
-### 4. **Hyperparameter Optimization**
-- Use automated tools like Optuna to fine-tune learning rates, entropy coefficients, and reward scaling factors.
-
----
+### Visualization and Analysis
+Future iterations will include interactive visualization tools (e.g., t-SNE, UMAP) to monitor the evolution of the embedding space and validate the effectiveness of our attention-guided clustering.
 
 ## Conclusion
-This project showcases the potential of reinforcement learning in portfolio optimization, addressing complex challenges in continuous action spaces and dynamic environments. By leveraging advanced RL techniques and thoughtful design, the agent serves as a foundation for future innovations in financial decision-making.
+
+Clustered Embedding Using Attention represents a fresh perspective on embedding learning. By divorcing the update process from traditional predictive tasks and focusing solely on contextual relationships derived from attention, we are able to form an embedding space that is both semantically meaningful and highly adaptable. This project lays the groundwork for future innovations in embedding techniques and their applications across various NLP tasks.
 
 ---
 
 ## Repository and Resources
 
-### Code
-The complete implementation can be found [here](https://github.com/TimothyBunker/TimFinPPL). The repository includes:
-- Environment setup.
-- PPO agent implementation.
-- Training and evaluation scripts.
+For full implementation details, code, and additional documentation, visit the project repository:
 
-### Dependencies
-- Python
-- PyTorch
-- NumPy
-- Pandas
-- Gym
-
-For detailed setup instructions, refer to the `README.md` file in the repository.
-
----
+[🔗 **Clustered Embedding Using Attention - GitHub Repo**](https://github.com/TimothyBunker/WordScrunch)
 
