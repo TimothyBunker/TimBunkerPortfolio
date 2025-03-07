@@ -138,7 +138,7 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  contact_email: bunkertimothy0@gmail.com # Add your form_id
+  contact_email: https://formspree.io/f/mzzepgbw # Add your form_id
   contact_button_text: Send Message
 
 # NOTE
