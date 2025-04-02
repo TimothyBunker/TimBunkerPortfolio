@@ -1,5 +1,5 @@
 ---
-title: Low-Level Graphics Rendering with C and the Linux Framebuffer - Linear Alg. Library
+title: Low-Level Graphics Rendering with C 
 description: A custom C library implementing linear algebra fundamentals to render 2D/3D graphics directly to the Linux framebuffer, bypassing high-level graphics APIs.
 date: 2025-04-01
 label: Graphics / C / Systems Programming # Or Low-Level, Linux
