@@ -1,7 +1,7 @@
 ---
 title: Character-Level Tagging with Multi-Dimensional Positional Transformers
 description: Enhancing character-based sequence tagging (POS, NER) by injecting multiple positional signals (absolute, within-word, word-index) into a Transformer model.
-date: 2023-11-14 10:00:00 # Update with your desired date
+date: 2025-04-01 22:13:00 
 label: NLP # Or Deep Learning, Research, Project
 image: '/TimBunkerPortfolio/images/multi-dimensional-transformer.png' 
 ---
