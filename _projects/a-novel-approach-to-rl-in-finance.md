@@ -3,7 +3,7 @@ title: Developing a Scalable Portfolio Allocator
 description: Integrating a Continually Learning PPO Model into the Financial Portfolio Allocating Landscape
 date: 2025-01-21 17:58:32 
 label: Poster
-image: '/TimBunkerPortfolio/images/FinBot.png'
+image: '/TimBunkerPortfolio/images/scalable-portfolio-allocator.png'
 ---
 # Reinforcement Learning for Portfolio Optimization
 
