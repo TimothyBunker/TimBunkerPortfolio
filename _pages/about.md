@@ -22,7 +22,6 @@ Continuous learning is fundamental to my growth. While I delve into technical pa
 Spending time with supportive family and friends remains incredibly important. These relationships ground me and provide perspective, reminding me of the values I hold close – integrity, perseverance, and collaboration. These values are not just personal principles; they guide my approach to my work and my interactions within any team.
 
 ![Placeholder Image relevant to CS, ML, sports, or leadership](/TimBunkerPortfolio/images/fencer.png)
-*Consider adding a photo related to your interests (e.g., abstract tech, data visualization, a subtle sports reference) and updating the caption.*
 
 Ultimately, my journey is fueled by a passion for what I do, both intellectually and personally. Whether tackling a complex coding problem, strategizing on the fencing strip, or leading on the rugby field, I bring dedication and a commitment to my core values. These combined experiences drive my pursuit of excellence as a Computer Scientist and as an individual.
 
