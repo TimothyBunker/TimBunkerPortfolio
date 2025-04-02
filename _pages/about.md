@@ -1,37 +1,29 @@
 ---
 layout: page
 title: About Me
-description: As an Artist, Designer, and Thinker, I find inspiration in the everyday moments and the extraordinary experiences that shape our world. My journey began with a passion for visual storytelling, which led me to explore various mediums and techniques.
+description: A Computer Scientist passionate about Machine Learning, Reinforcement Learning, and tackling complex challenges. Continuously developing skills and driven by core values.
 permalink: /about/
-image: '/images/01.jpg'
-image_caption: 'Photo by [César Rincón](https://unsplash.com/photos/grayscale-photo-of-man-XHVpWcr5grQ) on [Unsplash](https://unsplash.com/)'
+image: '/images/about-me-cover.png' # Suggest changing this image to something relevant (tech, abstract, you, etc.)
+image_caption: 'Photo representing technology or personal interests.' # Update caption accordingly
 ---
 
-When I'm not immersed in my creative projects, I love to explore the world and engage in activities that fuel my imagination and rejuvenate my spirit. Traveling is one of my greatest passions; it allows me to experience diverse cultures, meet fascinating people, and discover new perspectives. Whether wandering through the vibrant streets of a bustling city or finding tranquility in the serene landscapes of nature, I find inspiration in every corner of the globe. Each journey not only enriches my soul but also informs my work, adding depth and breadth to my artistic endeavors.
+As a Computer Scientist actively developing my career skills, I'm driven by a deep fascination with the potential of technology to solve complex problems. My core technical interests lie in **Machine Learning** and **Reinforcement Learning**, areas where I'm constantly seeking to expand my knowledge and apply innovative approaches. I thrive on the challenge of understanding intricate systems and building intelligent solutions.
 
-## Through my work
+## Beyond the Code
 
-In my free time, I often find solace in the simple pleasures of life. Reading is a cherished pastime, and I have a particular fondness for literature that challenges my thinking and broadens my understanding of the world. Books are windows to different realms, and they often spark new ideas and concepts that I later explore in my art and design work. I also enjoy spending time in nature, where the beauty and serenity of the environment provide a perfect backdrop for reflection and creative thought. Hiking, camping, and simply walking through a forest or along a beach help me reconnect with the natural world and find balance.
+While my professional focus is on computation and algorithms, my life outside of work is equally dynamic and shapes who I am. I'm passionate about sports that demand both physical and mental acuity. **Fencing** hones my strategic thinking, precision, and ability to react under pressure, while **Rugby** teaches me the power of teamwork, resilience, and communication. In both arenas, I embrace opportunities to **lead**, finding satisfaction in motivating a team towards a common goal, whether on the pitch or in collaborative projects.
 
-> "Design is not just what it looks like and feels like. Design is how it works."
+This blend of analytical thinking and active engagement extends to how I approach challenges. I believe the discipline learned through sports directly complements the problem-solving required in computer science. Both require understanding rules (or parameters), strategizing within constraints, and adapting to rapidly changing situations – much like developing an effective RL agent.
 
-Photography is another passion of mine, allowing me to capture fleeting moments and tell stories through images. I often take my camera on my travels, documenting the unique beauty of each place I visit. This visual diary not only serves as a personal keepsake but also as a wellspring of inspiration for future projects. The play of light and shadow, the textures and patterns of different environments, and the candid expressions of people I encounter all find their way into my work in various forms.
+> "The best way to predict the future is to invent it." - Alan Kay 
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/TimBunkerPortfolio/images/01-2.jpg" loading="lazy" alt="Lifestyle">
-  </div>
-  <em>Photo by <a href="https://unsplash.com/photos/three-people-holding-glass-bottles-while-talking-_qADvinJi20">John Arano</a> on <a href="https://unsplash.com/">Unsplash</a></em>
-</div>
+Continuous learning is fundamental to my growth. While I delve into technical papers and explore new algorithms in ML and RL, I also value broader perspectives gained through reading and engaging with diverse ideas. Staying curious and open-minded is key to innovation, both in technology and in life.
 
-Additionally, I enjoy experimenting with different forms of artistic expression, from painting and drawing to digital design and mixed media. This constant exploration keeps my creativity alive and ensures that my work remains fresh and dynamic. I believe that art is a never-ending journey of discovery, and I am always eager to learn new techniques and push the boundaries of my creativity.
+Spending time with supportive family and friends remains incredibly important. These relationships ground me and provide perspective, reminding me of the values I hold close – integrity, perseverance, and collaboration. These values are not just personal principles; they guide my approach to my work and my interactions within any team.
 
+![Placeholder Image relevant to CS, ML, sports, or leadership](/TimBunkerPortfolio/images/fencer.png)
+*Consider adding a photo related to your interests (e.g., abstract tech, data visualization, a subtle sports reference) and updating the caption.*
 
-Spending time with family and friends is also incredibly important to me. Their support and encouragement fuel my passion and drive, and our shared experiences often inspire new ideas and projects. Whether it's a casual gathering, a collaborative project, or a heartfelt conversation, these moments remind me of the importance of connection and community.
-
-![Women](/TimBunkerPortfolio/images/01-3.jpg)
-*Photo by [Alexis Brown](https://unsplash.com/photos/woman-reading-book-while-sitting-on-chair-omeaHbEFlN4) on [Unsplash](https://unsplash.com/)*
-
-In essence, my hobbies and free-time activities are an extension of my creative life. They provide me with endless inspiration, joy, and the energy to continue pursuing my passions as an Artist, Designer, and Thinker. Every experience, every journey, and every moment of reflection contributes to the tapestry of my life and work, shaping me into the person and creator I am today.
+Ultimately, my journey is fueled by a passion for what I do, both intellectually and personally. Whether tackling a complex coding problem, strategizing on the fencing strip, or leading on the rugby field, I bring dedication and a commitment to my core values. These combined experiences drive my pursuit of excellence as a Computer Scientist and as an individual.
 
 ***
