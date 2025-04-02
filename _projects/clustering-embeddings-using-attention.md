@@ -3,7 +3,7 @@ title: Clustered Embedding Using Attention
 description: Developing a Novel Embedding Space via Attention-Guided Clustering
 date: 2025-03-06 19:51:42
 label: Poster
-image: '/TimBunkerPortfolio/images/Clustered.png'
+image: '/TimBunkerPortfolio/images/clustered-attention.png'
 ---
 
 # Clustered Embedding Using Attention
